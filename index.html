@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop – Learn Web Development Online</title>
+  <link rel="stylesheet" href="workshop.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTSXeSX183WZ5wA_UXFG4woKA4hhbTe9n1-6c4bIyM0A&s=10" alt="Workshop logo: a stylised open book with a spark" width="48" height="48">
+      <div>
+        <h1>Workshop</h1>
+        <p class="tagline">Learn by building, one step at a time</p>
+      </div>
+    </div>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Build real skills in web development</h2>
+      <p>Workshop is a free learning platform with hands-on courses, short tutorials and study guides for HTML, CSS and JavaScript. Learn at your own pace and practise with projects.</p>
+      <a class="btn" href="#courses">Browse Courses</a>
+      <a class="btn btn-outline" href="#tutorials">Start a Tutorial</a>
+    </div>
+    <figure class="hero-figure">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsdYqaMIXR7wmHSklq3QSBXf4ASYBzHkIjZpQapl-MySkfH31MGa3Urb-&s=10">
+      <figcaption>Learning is better when you build something real.</figcaption>
+    </figure>
+  </section>
+
+  <div class="page-layout">
+
+    <main>
+
+      <section id="courses" class="content-section">
+        <h2>Featured Courses</h2>
+        <p>Pick a course and follow the modules in order, or jump straight to the topic you need.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <img src="https://cdn.dribbble.com/userupload/14399603/file/original-3dd1b2a09ca9217bd16f3be757b1877e.jpg?resize=1504x1122&vertical=center" alt="HTML5 badge with angle brackets">
+            <div class="card-body">
+              <h3>HTML Fundamentals</h3>
+              <p>Learn semantic structure, forms, links, images and multimedia.</p>
+              <ul class="tags">
+                <li>Beginner</li><li>6 modules</li><li>8 hours</li>
+              </ul>
+              <a href="#html-module">View syllabus</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://banner2.cleanpng.com/20180510/trw/kisspng-html-css-design-and-build-web-sites-web-develop-5af50c33d59ff9.681459051526008883875.jpg" alt="CSS3 badge with a paint brush">
+            <div class="card-body">
+              <h3>CSS Layouts</h3>
+              <p>Master Flexbox, Grid, responsive design and media queries.</p>
+              <ul class="tags">
+                <li>Intermediate</li><li>8 modules</li><li>12 hours</li>
+              </ul>
+              <a href="#css-module">View syllabus</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://repository-images.githubusercontent.com/539560750/278d0bbf-6aaf-4f38-a18f-e328305bcd7b" alt="JavaScript badge with curly braces">
+            <div class="card-body">
+              <h3>JavaScript Basics</h3>
+              <p>Variables, functions, the DOM and building interactive pages.</p>
+              <ul class="tags">
+                <li>Beginner</li><li>10 modules</li><li>15 hours</li>
+              </ul>
+              <a href="#js-module">View syllabus</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="tutorials" class="content-section">
+        <h2>Study Materials &amp; Tutorials</h2>
+
+        <article class="tutorial" id="html-module">
+          <h3>Module 1: Structuring a Page with HTML</h3>
+          <p>Every web page starts with HTML. In this module you will learn how to use semantic elements to give your page meaning for both people and search engines.</p>
+          <ol>
+            <li>Create the document skeleton with <code>&lt;!DOCTYPE html&gt;</code></li>
+            <li>Add a <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code> and <code>&lt;main&gt;</code></li>
+            <li>Group content with <code>&lt;section&gt;</code> and <code>&lt;article&gt;</code></li>
+            <li>Finish with an <code>&lt;aside&gt;</code> and <code>&lt;footer&gt;</code></li>
+          </ol>
+        </article>
+
+        <article class="tutorial" id="css-module">
+          <h3>Module 2: Flexbox and Grid</h3>
+          <p>Flexbox arranges items in one direction; Grid arranges items in rows and columns. Use them together for flexible, modern layouts.</p>
+          <ul>
+            <li><strong>Flexbox:</strong> navigation bars, card rows, centring content</li>
+            <li><strong>Grid:</strong> page layouts, galleries, resource lists</li>
+            <li><strong>Media queries:</strong> adapt the design to phones, tablets and desktops</li>
+          </ul>
+        </article>
+
+        <article class="tutorial" id="js-module">
+          <h3>Module 3: Making Pages Interactive</h3>
+          <p>JavaScript lets you respond to clicks, validate forms and update the page without reloading. Start with small projects such as a to-do list or a quiz.</p>
+          <ul>
+            <li>Variables, data types and operators</li>
+            <li>Functions and events</li>
+            <li>Selecting and changing elements in the DOM</li>
+          </ul>
+        </article>
+
+        <h3>Additional Resources</h3>
+        <ul class="resource-links">
+          <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a> – the reference for web technologies</li>
+          <li><a href="https://www.w3.org/standards/webdesign/" target="_blank" rel="noopener">W3C Web Design Standards</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener">A Complete Guide to Flexbox</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" rel="noopener">A Complete Guide to Grid</a></li>
+        </ul>
+      </section>
+
+      <section id="media" class="content-section">
+        <h2>Watch &amp; Listen</h2>
+
+        <div class="media-grid">
+          <figure class="media-item">
+            <video controls preload="metadata" poster="workshop-hero.svg" width="640">
+              <source src="https://www.pexels.com/download/video/8199398/" type="video/mp4">
+              <source src="https://www.pexels.com/search/videos/studying/" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <figcaption>Video lesson: a short sample lecture clip to preview how workshop videos work.</figcaption>
+          </figure>
+
+          <figure class="media-item">
+            <img src="https://workshopbank.com/_next/image?url=https%3A%2F%2Fzhlvedruguvoayvhqpjg.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Farticle-images%2Fcategories%2F758ef6c5-b190-4c61-9e6b-4fe4f353a318%2F1762426572603-xc116c.jpeg&w=3840&q=75" alt="Three instructors standing in front of a whiteboard">
+            <audio controls>
+              <source src="https://samplelib.com/mp3/sample-3s.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            <figcaption>Podcast: listen to a sample audio clip from our instructors.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="announcements" class="content-section">
+        <h2>Announcements</h2>
+        <div class="announcements">
+          <article class="notice">
+            <h3>New Cohort Starts 1 December</h3>
+            <p>Registration is open for the winter HTML &amp; CSS cohort. Seats are limited.</p>
+          </article>
+          <article class="notice">
+            <h3>Weekly Live Q&amp;A</h3>
+            <p>Join instructors every Friday at 5 PM for live questions and code reviews.</p>
+          </article>
+          <article class="notice">
+            <h3>Certificate Update</h3>
+            <p>Completion certificates are now available for every finished course.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <aside class="sidebar" aria-label="Secondary information">
+      <section class="widget">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#courses">All courses</a></li>
+          <li><a href="#tutorials">Study guides</a></li>
+          <li><a href="#media">Video &amp; audio</a></li>
+          <li><a href="#announcements">Latest news</a></li>
+        </ul>
+      </section>
+
+      <section class="widget">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li><strong>25 Nov</strong> – Intro to Flexbox (live)</li>
+          <li><strong>28 Nov</strong> – Grid Layout Lab</li>
+          <li><strong>01 Dec</strong> – New cohort begins</li>
+        </ul>
+      </section>
+
+      <section class="widget">
+        <h2>Platform Stats</h2>
+        <ul class="stats">
+          <li><span>120+</span> Lessons</li>
+          <li><span>5k</span> Learners</li>
+          <li><span>15</span> Instructors</li>
+        </ul>
+      </section>
+
+      <section class="widget">
+        <h2>Study Tip</h2>
+        <p>Practise a little every day. Thirty focused minutes beat a single five-hour session.</p>
+      </section>
+    </aside>
+
+  </div>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-about">
+      <h2>Workshop</h2>
+      <p>A friendly place to learn web development with practical lessons and projects.</p>
+    </div>
+    <div>
+      <h3>Learn</h3>
+      <ul>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#media">Media</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Community</h3>
+      <ul>
+        <li><a href="#announcements">Announcements</a></li>
+        <li><a href="#home">Events</a></li>
+        <li><a href="#home">Forum</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <address>
+        hello@workshop.example<br>
+        Kathmandu, Nepal
+      </address>
+    </div>
+    <p class="copyright">&copy; 2026 Workshop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
